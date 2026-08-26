@@ -1,0 +1,80 @@
+﻿@model GerenciadorAcademico.ViewModels.ProjetosIndexViewModel
+
+@{
+    ViewData["Title"] = "Projetos Acadêmicos";
+}
+
+<p class="sort-links">
+    Ordenar por:
+    <a asp-action="Index"
+       asp-route-pesquisa="@Model.TextoPesquisa"
+       asp-route-ordenarPor="titulo"
+       class="@(Model.OrdenarPor == "titulo" ? "active" : null)">Título</a>
+    <a asp-action="Index"
+       asp-route-pesquisa="@Model.TextoPesquisa"
+       asp-route-ordenarPor="cargaHoraria"
+       class="@(Model.OrdenarPor == "cargahoraria" ? "active" : null)">Carga horária</a>
+</p>
+
+<form asp-action="Index" method="get" class="toolbar">
+    <div class="search-form">
+        <input type="text"
+               name="pesquisa"
+               value="@Model.TextoPesquisa"
+               class="input"
+               placeholder="Pesquisar por título..." />
+        <input type="hidden" name="ordenarPor" value="@Model.OrdenarPor" />
+        <button type="submit" class="button">Pesquisar</button>
+        <a asp-action="Index" class="button secondary">Limpar</a>
+    </div>
+</form>
+
+<div class="page-heading">
+    <div>
+        <h1>Projetos Acadêmicos</h1>
+        <p>Gerencie os projetos cadastrados.</p>
+    </div>
+    <a asp-action="Cadastrar" class="button">Novo projeto</a>
+</div>
+
+@if (TempData["Mensagem"] is not null)
+{
+    <div class="alert success">
+        @TempData["Mensagem"]
+    </div>
+}
+
+@if (Model.Projetos.Count == 0)
+{
+    <div class="empty">Nenhum projeto cadastrado.</div>
+}
+else
+{
+    <div class="table-wrap">
+<table>
+        <thead>
+            <tr>
+                <th>Título</th>
+                <th>Carga horária</th>
+                <th>Professor</th>
+                <th>Ações</th>
+            </tr>
+        </thead>
+    <tbody>
+            @foreach (var projeto in Model.Projetos)
+        {
+            <tr>
+                    <td>@projeto.Titulo</td>
+                    <td>@projeto.CargaHoraria horas</td>
+                    <td>@projeto.Professor?.Nome</td>
+                    <td class="actions">
+                    <a asp-action="Detalhes" asp-route-id="@projeto.Id">Detalhes</a> |
+                    <a asp-action="Editar" asp-route-id="@projeto.Id">Editar</a> |
+                    <a class="danger-link"  asp-action="Excluir" asp-route-id="@projeto.Id">Excluir</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+</div>
+}

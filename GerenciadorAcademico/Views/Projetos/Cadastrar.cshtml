@@ -1,0 +1,22 @@
+﻿@model GerenciadorAcademico.ViewModels.NovoProjetoViewModel
+
+@{
+    ViewData["Title"] = "Cadastrar projeto";
+}
+
+<h1>Cadastrar projeto</h1>
+
+<form asp-action="Cadastrar" method="post" class="form-card">
+    <div asp-validation-summary="ModelOnly" class="validation"></div>
+
+    <partial name="_FormularioProjeto" model="(GerenciadorAcademico.ViewModels.ProjetoFormularioViewModel)Model" />
+
+    <div class="form-actions">
+        <button type="submit" class="button">Salvar</button>
+        <a asp-action="Index" class="button secondary">Cancelar</a>
+    </div>
+</form>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

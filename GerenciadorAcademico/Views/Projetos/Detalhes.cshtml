@@ -1,0 +1,24 @@
+﻿@model GerenciadorAcademico.Models.Projeto
+
+@{
+    ViewData["Title"] = "Detalhes do projeto";
+}
+
+<h1>Detalhes do projeto</h1>
+
+<dl class="details">
+    <dt>Título</dt>
+    <dd>@Model.Titulo</dd>
+
+    <dt>Descrição</dt>
+    <dd>@Model.Descricao</dd>
+
+    <dt>Carga horária</dt>
+    <dd>@Model.CargaHoraria horas</dd>
+
+    <dt>Professor</dt>
+    <dd>@Model.Professor?.Nome</dd>
+</dl>
+
+<a asp-action="Editar" asp-route-id="@Model.Id" class="button">Editar</a>
+<a asp-action="Index" class="button secondary">Voltar</a>

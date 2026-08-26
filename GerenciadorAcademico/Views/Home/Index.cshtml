@@ -1,0 +1,49 @@
+﻿@model List<GerenciadorAcademico.Models.Projeto>
+
+@{
+    ViewData["Title"] = "Projetos Acadêmicos";
+}
+
+<h1>Projetos Acadêmicos</h1>
+
+@if (TempData["Mensagem"] is not null)
+{
+    <div class="alert alert-success">
+        @TempData["Mensagem"]
+    </div>
+}
+
+<p>
+    <a asp-action="Cadastrar" class="btn btn-primary">Novo projeto</a>
+</p>
+
+@if (Model.Count == 0)
+{
+    <p>Nenhum projeto cadastrado.</p>
+}
+else
+{
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Título</th>
+                <th>Carga horária</th>
+                <th>Ações</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var projeto in Model)
+            {
+                <tr>
+                    <td>@projeto.Titulo</td>
+                    <td>@projeto.CargaHoraria horas</td>
+                    <td>
+                        <a asp-action="Detalhes" asp-route-id="@projeto.Id">Detalhes</a> |
+                        <a asp-action="Editar" asp-route-id="@projeto.Id">Editar</a> |
+                        <a asp-action="Excluir" asp-route-id="@projeto.Id">Excluir</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
