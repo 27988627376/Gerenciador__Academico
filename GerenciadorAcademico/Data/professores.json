@@ -1,0 +1,152 @@
+[
+  {
+    "id": 1,
+    "nome": "Ana Souza",
+    "email": "ana.souza@gerenciadoracademico.edu.br"
+  },
+  {
+    "id": 2,
+    "nome": "Bruno Almeida",
+    "email": "bruno.almeida@gerenciadoracademico.edu.br"
+  },
+  {
+    "id": 3,
+    "nome": "Carla Mendes",
+    "email": "carla.mendes@gerenciadoracademico.edu.br"
+  },
+  {
+    "id": 4,
+    "nome": "Daniel Oliveira",
+    "email": "daniel.oliveira@gerenciadoracademico.edu.br"
+  },
+  {
+    "id": 5,
+    "nome": "Eduarda Santos",
+    "email": "eduarda.santos@gerenciadoracademico.edu.br"
+  },
+  {
+    "id": 6,
+    "nome": "Felipe Rocha",
+    "email": "felipe.rocha@gerenciadoracademico.edu.br"
+  },
+  {
+    "id": 7,
+    "nome": "Gabriela Costa",
+    "email": "gabriela.costa@gerenciadoracademico.edu.br"
+  },
+  {
+    "id": 8,
+    "nome": "Henrique Lima",
+    "email": "henrique.lima@gerenciadoracademico.edu.br"
+  },
+  {
+    "id": 9,
+    "nome": "Isabela Ferreira",
+    "email": "isabela.ferreira@gerenciadoracademico.edu.br"
+  },
+  {
+    "id": 10,
+    "nome": "João Martins",
+    "email": "joao.martins@gerenciadoracademico.edu.br"
+  },
+  {
+    "id": 11,
+    "nome": "Karina Ribeiro",
+    "email": "karina.ribeiro@gerenciadoracademico.edu.br"
+  },
+  {
+    "id": 12,
+    "nome": "Lucas Barbosa",
+    "email": "lucas.barbosa@gerenciadoracademico.edu.br"
+  },
+  {
+    "id": 13,
+    "nome": "Mariana Carvalho",
+    "email": "mariana.carvalho@gerenciadoracademico.edu.br"
+  },
+  {
+    "id": 14,
+    "nome": "Nicolas Gomes",
+    "email": "nicolas.gomes@gerenciadoracademico.edu.br"
+  },
+  {
+    "id": 15,
+    "nome": "Olívia Pereira",
+    "email": "olivia.pereira@gerenciadoracademico.edu.br"
+  },
+  {
+    "id": 16,
+    "nome": "Paulo Nascimento",
+    "email": "paulo.nascimento@gerenciadoracademico.edu.br"
+  },
+  {
+    "id": 17,
+    "nome": "Queila Rodrigues",
+    "email": "queila.rodrigues@gerenciadoracademico.edu.br"
+  },
+  {
+    "id": 18,
+    "nome": "Rafael Araújo",
+    "email": "rafael.araujo@gerenciadoracademico.edu.br"
+  },
+  {
+    "id": 19,
+    "nome": "Sabrina Teixeira",
+    "email": "sabrina.teixeira@gerenciadoracademico.edu.br"
+  },
+  {
+    "id": 20,
+    "nome": "Thiago Correia",
+    "email": "thiago.correia@gerenciadoracademico.edu.br"
+  },
+  {
+    "id": 21,
+    "nome": "Úrsula Freitas",
+    "email": "ursula.freitas@gerenciadoracademico.edu.br"
+  },
+  {
+    "id": 22,
+    "nome": "Vinícius Monteiro",
+    "email": "vinicius.monteiro@gerenciadoracademico.edu.br"
+  },
+  {
+    "id": 23,
+    "nome": "Waleska Cardoso",
+    "email": "waleska.cardoso@gerenciadoracademico.edu.br"
+  },
+  {
+    "id": 24,
+    "nome": "Xavier Moreira",
+    "email": "xavier.moreira@gerenciadoracademico.edu.br"
+  },
+  {
+    "id": 25,
+    "nome": "Yasmin Castro",
+    "email": "yasmin.castro@gerenciadoracademico.edu.br"
+  },
+  {
+    "id": 26,
+    "nome": "Zeca Fernandes",
+    "email": "zeca.fernandes@gerenciadoracademico.edu.br"
+  },
+  {
+    "id": 27,
+    "nome": "Alice Duarte",
+    "email": "alice.duarte@gerenciadoracademico.edu.br"
+  },
+  {
+    "id": 28,
+    "nome": "Caio Vieira",
+    "email": "caio.vieira@gerenciadoracademico.edu.br"
+  },
+  {
+    "id": 29,
+    "nome": "Débora Moraes",
+    "email": "debora.moraes@gerenciadoracademico.edu.br"
+  },
+  {
+    "id": 30,
+    "nome": "Evandro Lopes",
+    "email": "evandro.lopes@gerenciadoracademico.edu.br"
+  }
+]

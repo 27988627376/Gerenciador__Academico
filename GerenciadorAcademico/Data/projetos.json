@@ -1,0 +1,353 @@
+[
+  {
+    "id": 1,
+    "titulo": "Robótica Educacional",
+    "descricao": "Projeto acadêmico voltado ao estudo e à aplicação de robótica educacional, integrando atividades teóricas e práticas.",
+    "cargaHoraria": 20,
+    "professorId": 1
+  },
+  {
+    "id": 2,
+    "titulo": "Programação Web com ASP.NET Core",
+    "descricao": "Projeto acadêmico voltado ao estudo e à aplicação de programação web com asp.net core, integrando atividades teóricas e práticas.",
+    "cargaHoraria": 30,
+    "professorId": 2
+  },
+  {
+    "id": 3,
+    "titulo": "Inclusão Digital para a Comunidade",
+    "descricao": "Projeto acadêmico voltado ao estudo e à aplicação de inclusão digital para a comunidade, integrando atividades teóricas e práticas.",
+    "cargaHoraria": 40,
+    "professorId": 3
+  },
+  {
+    "id": 4,
+    "titulo": "Laboratório de Redes de Computadores",
+    "descricao": "Projeto acadêmico voltado ao estudo e à aplicação de laboratório de redes de computadores, integrando atividades teóricas e práticas.",
+    "cargaHoraria": 60,
+    "professorId": 4
+  },
+  {
+    "id": 5,
+    "titulo": "Desenvolvimento de Aplicativos Móveis",
+    "descricao": "Projeto acadêmico voltado ao estudo e à aplicação de desenvolvimento de aplicativos móveis, integrando atividades teóricas e práticas.",
+    "cargaHoraria": 80,
+    "professorId": 5
+  },
+  {
+    "id": 6,
+    "titulo": "Pensamento Computacional na Escola",
+    "descricao": "Projeto acadêmico voltado ao estudo e à aplicação de pensamento computacional na escola, integrando atividades teóricas e práticas.",
+    "cargaHoraria": 100,
+    "professorId": 6
+  },
+  {
+    "id": 7,
+    "titulo": "Segurança da Informação",
+    "descricao": "Projeto acadêmico voltado ao estudo e à aplicação de segurança da informação, integrando atividades teóricas e práticas.",
+    "cargaHoraria": 120,
+    "professorId": 7
+  },
+  {
+    "id": 8,
+    "titulo": "Banco de Dados Aplicado",
+    "descricao": "Projeto acadêmico voltado ao estudo e à aplicação de banco de dados aplicado, integrando atividades teóricas e práticas.",
+    "cargaHoraria": 20,
+    "professorId": 8
+  },
+  {
+    "id": 9,
+    "titulo": "Inteligência Artificial na Educação",
+    "descricao": "Projeto acadêmico voltado ao estudo e à aplicação de inteligência artificial na educação, integrando atividades teóricas e práticas.",
+    "cargaHoraria": 30,
+    "professorId": 9
+  },
+  {
+    "id": 10,
+    "titulo": "Clube de Ciências e Tecnologia",
+    "descricao": "Projeto acadêmico voltado ao estudo e à aplicação de clube de ciências e tecnologia, integrando atividades teóricas e práticas.",
+    "cargaHoraria": 40,
+    "professorId": 10
+  },
+  {
+    "id": 11,
+    "titulo": "Matemática com Recursos Digitais",
+    "descricao": "Projeto acadêmico voltado ao estudo e à aplicação de matemática com recursos digitais, integrando atividades teóricas e práticas.",
+    "cargaHoraria": 60,
+    "professorId": 11
+  },
+  {
+    "id": 12,
+    "titulo": "Produção de Podcasts Educacionais",
+    "descricao": "Projeto acadêmico voltado ao estudo e à aplicação de produção de podcasts educacionais, integrando atividades teóricas e práticas.",
+    "cargaHoraria": 80,
+    "professorId": 12
+  },
+  {
+    "id": 13,
+    "titulo": "Criação de Jogos Digitais",
+    "descricao": "Projeto acadêmico voltado ao estudo e à aplicação de criação de jogos digitais, integrando atividades teóricas e práticas.",
+    "cargaHoraria": 100,
+    "professorId": 13
+  },
+  {
+    "id": 14,
+    "titulo": "Internet das Coisas no Ambiente Escolar",
+    "descricao": "Projeto acadêmico voltado ao estudo e à aplicação de internet das coisas no ambiente escolar, integrando atividades teóricas e práticas.",
+    "cargaHoraria": 120,
+    "professorId": 14
+  },
+  {
+    "id": 15,
+    "titulo": "Impressão 3D e Aprendizagem Criativa",
+    "descricao": "Projeto acadêmico voltado ao estudo e à aplicação de impressão 3d e aprendizagem criativa, integrando atividades teóricas e práticas.",
+    "cargaHoraria": 20,
+    "professorId": 15
+  },
+  {
+    "id": 16,
+    "titulo": "Desenvolvimento de APIs REST",
+    "descricao": "Projeto acadêmico voltado ao estudo e à aplicação de desenvolvimento de apis rest, integrando atividades teóricas e práticas.",
+    "cargaHoraria": 30,
+    "professorId": 16
+  },
+  {
+    "id": 17,
+    "titulo": "Educação Financeira com Tecnologia",
+    "descricao": "Projeto acadêmico voltado ao estudo e à aplicação de educação financeira com tecnologia, integrando atividades teóricas e práticas.",
+    "cargaHoraria": 40,
+    "professorId": 17
+  },
+  {
+    "id": 18,
+    "titulo": "Monitoramento Ambiental com Sensores",
+    "descricao": "Projeto acadêmico voltado ao estudo e à aplicação de monitoramento ambiental com sensores, integrando atividades teóricas e práticas.",
+    "cargaHoraria": 60,
+    "professorId": 18
+  },
+  {
+    "id": 19,
+    "titulo": "Cultura Maker na Educação",
+    "descricao": "Projeto acadêmico voltado ao estudo e à aplicação de cultura maker na educação, integrando atividades teóricas e práticas.",
+    "cargaHoraria": 80,
+    "professorId": 19
+  },
+  {
+    "id": 20,
+    "titulo": "Acessibilidade Digital",
+    "descricao": "Projeto acadêmico voltado ao estudo e à aplicação de acessibilidade digital, integrando atividades teóricas e práticas.",
+    "cargaHoraria": 100,
+    "professorId": 20
+  },
+  {
+    "id": 21,
+    "titulo": "Programação para Iniciantes",
+    "descricao": "Projeto acadêmico voltado ao estudo e à aplicação de programação para iniciantes, integrando atividades teóricas e práticas.",
+    "cargaHoraria": 120,
+    "professorId": 21
+  },
+  {
+    "id": 22,
+    "titulo": "Administração de Servidores Linux",
+    "descricao": "Projeto acadêmico voltado ao estudo e à aplicação de administração de servidores linux, integrando atividades teóricas e práticas.",
+    "cargaHoraria": 20,
+    "professorId": 22
+  },
+  {
+    "id": 23,
+    "titulo": "Infraestrutura de Redes sem Fio",
+    "descricao": "Projeto acadêmico voltado ao estudo e à aplicação de infraestrutura de redes sem fio, integrando atividades teóricas e práticas.",
+    "cargaHoraria": 30,
+    "professorId": 23
+  },
+  {
+    "id": 24,
+    "titulo": "Desenvolvimento Front-end Responsivo",
+    "descricao": "Projeto acadêmico voltado ao estudo e à aplicação de desenvolvimento front-end responsivo, integrando atividades teóricas e práticas.",
+    "cargaHoraria": 40,
+    "professorId": 24
+  },
+  {
+    "id": 25,
+    "titulo": "Modelagem de Sistemas",
+    "descricao": "Projeto acadêmico voltado ao estudo e à aplicação de modelagem de sistemas, integrando atividades teóricas e práticas.",
+    "cargaHoraria": 60,
+    "professorId": 25
+  },
+  {
+    "id": 26,
+    "titulo": "Versionamento de Código com Git",
+    "descricao": "Projeto acadêmico voltado ao estudo e à aplicação de versionamento de código com git, integrando atividades teóricas e práticas.",
+    "cargaHoraria": 80,
+    "professorId": 26
+  },
+  {
+    "id": 27,
+    "titulo": "Computação em Nuvem",
+    "descricao": "Projeto acadêmico voltado ao estudo e à aplicação de computação em nuvem, integrando atividades teóricas e práticas.",
+    "cargaHoraria": 100,
+    "professorId": 27
+  },
+  {
+    "id": 28,
+    "titulo": "Ciência de Dados na Educação",
+    "descricao": "Projeto acadêmico voltado ao estudo e à aplicação de ciência de dados na educação, integrando atividades teóricas e práticas.",
+    "cargaHoraria": 120,
+    "professorId": 28
+  },
+  {
+    "id": 29,
+    "titulo": "Automação de Processos Escolares",
+    "descricao": "Projeto acadêmico voltado ao estudo e à aplicação de automação de processos escolares, integrando atividades teóricas e práticas.",
+    "cargaHoraria": 20,
+    "professorId": 29
+  },
+  {
+    "id": 30,
+    "titulo": "Realidade Virtual na Aprendizagem",
+    "descricao": "Projeto acadêmico voltado ao estudo e à aplicação de realidade virtual na aprendizagem, integrando atividades teóricas e práticas.",
+    "cargaHoraria": 30,
+    "professorId": 30
+  },
+  {
+    "id": 31,
+    "titulo": "Desenvolvimento de Sistemas Acadêmicos",
+    "descricao": "Projeto acadêmico voltado ao estudo e à aplicação de desenvolvimento de sistemas acadêmicos, integrando atividades teóricas e práticas.",
+    "cargaHoraria": 40,
+    "professorId": 1
+  },
+  {
+    "id": 32,
+    "titulo": "Laboratório de Manutenção de Computadores",
+    "descricao": "Projeto acadêmico voltado ao estudo e à aplicação de laboratório de manutenção de computadores, integrando atividades teóricas e práticas.",
+    "cargaHoraria": 60,
+    "professorId": 2
+  },
+  {
+    "id": 33,
+    "titulo": "Empreendedorismo e Inovação Tecnológica",
+    "descricao": "Projeto acadêmico voltado ao estudo e à aplicação de empreendedorismo e inovação tecnológica, integrando atividades teóricas e práticas.",
+    "cargaHoraria": 80,
+    "professorId": 3
+  },
+  {
+    "id": 34,
+    "titulo": "Metodologias Ativas com Tecnologias",
+    "descricao": "Projeto acadêmico voltado ao estudo e à aplicação de metodologias ativas com tecnologias, integrando atividades teóricas e práticas.",
+    "cargaHoraria": 100,
+    "professorId": 4
+  },
+  {
+    "id": 35,
+    "titulo": "Letramento Digital",
+    "descricao": "Projeto acadêmico voltado ao estudo e à aplicação de letramento digital, integrando atividades teóricas e práticas.",
+    "cargaHoraria": 120,
+    "professorId": 5
+  },
+  {
+    "id": 36,
+    "titulo": "Design de Interfaces Educacionais",
+    "descricao": "Projeto acadêmico voltado ao estudo e à aplicação de design de interfaces educacionais, integrando atividades teóricas e práticas.",
+    "cargaHoraria": 20,
+    "professorId": 6
+  },
+  {
+    "id": 37,
+    "titulo": "Privacidade e Proteção de Dados",
+    "descricao": "Projeto acadêmico voltado ao estudo e à aplicação de privacidade e proteção de dados, integrando atividades teóricas e práticas.",
+    "cargaHoraria": 30,
+    "professorId": 7
+  },
+  {
+    "id": 38,
+    "titulo": "Aprendizagem Baseada em Projetos",
+    "descricao": "Projeto acadêmico voltado ao estudo e à aplicação de aprendizagem baseada em projetos, integrando atividades teóricas e práticas.",
+    "cargaHoraria": 40,
+    "professorId": 8
+  },
+  {
+    "id": 39,
+    "titulo": "Observatório de Indicadores Educacionais",
+    "descricao": "Projeto acadêmico voltado ao estudo e à aplicação de observatório de indicadores educacionais, integrando atividades teóricas e práticas.",
+    "cargaHoraria": 60,
+    "professorId": 9
+  },
+  {
+    "id": 40,
+    "titulo": "Tecnologias Assistivas",
+    "descricao": "Projeto acadêmico voltado ao estudo e à aplicação de tecnologias assistivas, integrando atividades teóricas e práticas.",
+    "cargaHoraria": 80,
+    "professorId": 10
+  },
+  {
+    "id": 41,
+    "titulo": "Introdução à Cibersegurança",
+    "descricao": "Projeto acadêmico voltado ao estudo e à aplicação de introdução à cibersegurança, integrando atividades teóricas e práticas.",
+    "cargaHoraria": 100,
+    "professorId": 11
+  },
+  {
+    "id": 42,
+    "titulo": "Desenvolvimento de Portfólios Digitais",
+    "descricao": "Projeto acadêmico voltado ao estudo e à aplicação de desenvolvimento de portfólios digitais, integrando atividades teóricas e práticas.",
+    "cargaHoraria": 120,
+    "professorId": 12
+  },
+  {
+    "id": 43,
+    "titulo": "Educação Midiática",
+    "descricao": "Projeto acadêmico voltado ao estudo e à aplicação de educação midiática, integrando atividades teóricas e práticas.",
+    "cargaHoraria": 20,
+    "professorId": 13
+  },
+  {
+    "id": 44,
+    "titulo": "Aplicações Web Progressivas",
+    "descricao": "Projeto acadêmico voltado ao estudo e à aplicação de aplicações web progressivas, integrando atividades teóricas e práticas.",
+    "cargaHoraria": 30,
+    "professorId": 14
+  },
+  {
+    "id": 45,
+    "titulo": "Gestão de Projetos de Software",
+    "descricao": "Projeto acadêmico voltado ao estudo e à aplicação de gestão de projetos de software, integrando atividades teóricas e práticas.",
+    "cargaHoraria": 40,
+    "professorId": 15
+  },
+  {
+    "id": 46,
+    "titulo": "Laboratório de Algoritmos",
+    "descricao": "Projeto acadêmico voltado ao estudo e à aplicação de laboratório de algoritmos, integrando atividades teóricas e práticas.",
+    "cargaHoraria": 60,
+    "professorId": 16
+  },
+  {
+    "id": 47,
+    "titulo": "Sustentabilidade e Tecnologia",
+    "descricao": "Projeto acadêmico voltado ao estudo e à aplicação de sustentabilidade e tecnologia, integrando atividades teóricas e práticas.",
+    "cargaHoraria": 80,
+    "professorId": 17
+  },
+  {
+    "id": 48,
+    "titulo": "Comunicação Digital Institucional",
+    "descricao": "Projeto acadêmico voltado ao estudo e à aplicação de comunicação digital institucional, integrando atividades teóricas e práticas.",
+    "cargaHoraria": 100,
+    "professorId": 18
+  },
+  {
+    "id": 49,
+    "titulo": "Formação Docente para Uso de IA",
+    "descricao": "Projeto acadêmico voltado ao estudo e à aplicação de formação docente para uso de ia, integrando atividades teóricas e práticas.",
+    "cargaHoraria": 120,
+    "professorId": 19
+  },
+  {
+    "id": 50,
+    "titulo": "Feira de Inovação e Tecnologia",
+    "descricao": "Projeto acadêmico voltado ao estudo e à aplicação de feira de inovação e tecnologia, integrando atividades teóricas e práticas.",
+    "cargaHoraria": 20,
+    "professorId": 20
+  }
+]
+

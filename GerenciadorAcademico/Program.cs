@@ -1,10 +1,15 @@
 using GerenciadorAcademico.Services;
+using GerenciadorAcademico.Repositories;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
-builder.Services.AddSingleton<IProjetoService, ProjetoService>();
+
+builder.Services.AddSingleton<JsonFileStore>();
+builder.Services.AddScoped<IProjetoRepository, ProjetoJsonRepository>();
+builder.Services.AddScoped<IProfessorRepository, ProfessorJsonRepository>();
+builder.Services.AddScoped<IProjetoService, ProjetoService>();
 
 var app = builder.Build();
 
